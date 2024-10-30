@@ -1,5 +1,6 @@
 ######################################################################################
-### API Rest Residencias ## LABORATORIO PARA EL DESPLIEGUE DE APLICACIONES "AD-24" ###
+###   Test de API Rest   ## LABORATORIO PARA EL DESPLIEGUE DE APLICACIONES "AD-24" ###
+###    Usando Jenkins    #############################################################
 ######################################################################################
 
 from app import create_app
