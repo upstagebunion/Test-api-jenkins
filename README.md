@@ -26,7 +26,16 @@ El pipeline fue configurado para ejecutar la API en un contenedor Docker y corre
 ![Ajuste de pipeline](https://github.com/user-attachments/assets/6e4e386b-6a7e-44ae-bbda-125fa0da3b30)
 
 ### Código del Pipeline
-// Aquí se encuentra el código del pipeline en Jenkins
+pipeline {
+    agent any
+    stages {
+        stage('Run Tests') {
+            steps {
+                bat 'docker run project-management-api pytest'
+            }
+        }
+    }
+}
 
 ### 3. Primera Ejecución: Error por Comando Incorrecto
 En la primera ejecución, surgió un error al intentar ejecutar un comando de Linux en un entorno Windows, lo que se resolvió reemplazando sh con bat.
