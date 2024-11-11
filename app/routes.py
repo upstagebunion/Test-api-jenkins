@@ -17,4 +17,4 @@ def create_project():
     new_project = Project(title=data['title'], description=data['description'], student_id=data['student_id'])
     db.session.add(new_project)
     db.session.commit()
-    return jsonify({"message": "Project created"}), 201
+    return jsonify({"message": "Proyecto creado con éxito"}), 201
