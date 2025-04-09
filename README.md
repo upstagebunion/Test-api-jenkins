@@ -5,8 +5,6 @@ Este proyecto se centra en la administración y pruebas de una API utilizando Do
 ## Equipo de Desarrollo
 - **Monjaraz Perez Sara Alexandra** ([SaraAlexMP](https://github.com/SaraAlexMP))
 - **García Solís Francisco** ([Upstagebunion](https://github.com/Upstagebunion))
-- **Brandon** ([Brandon1924](https://github.com/Brandon1924))
-- **Miguel Ángel Loza López** ([Esblad](https://github.com/Esblad))
 
 ## Descripción General
 Este proyecto implementa una API administrada mediante Docker, con integración de pruebas automáticas en Jenkins. A continuación se muestran las etapas principales de configuración, ejecución y resolución de errores en el pipeline, incluyendo capturas de cada paso clave.
